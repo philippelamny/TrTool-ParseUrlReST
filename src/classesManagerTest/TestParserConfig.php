@@ -32,6 +32,7 @@ final class TestParserConfig extends ParserConfig {
         return (object) array(
             'sample' => '',
             'regex' => '',
+            'className' => 'PostAction',
             'code' => array(
                 'success' => '201'
             ),

@@ -14,14 +14,21 @@ class Parser {
      * @param String $url URL TO Parse
      * @param $option Options of the form
      * @param $specificObject Specific object for costumized
+     * @param $classParserConfigName class name of Parserconfig to use
      * @return AManager
      */
-    static function getClassManager($nameCall, $url, $option, $specificObject) : AManager {
+    static function getClassManager($nameCall, $url, $option, $specificObject, $classParserConfigName) : AManager {
+        
         // get the information about the nameCall
-        $infoName = ParserInfo::get($nameCall);
+        $infoName = $classParserConfigName::get($nameCall);
 
         // get the class Manager Name From the Regex & Url
-        $className = $infoName->regex;
+        if ("" == $url && $infoName->className) { // If specified
+            $className = $infoName->className;
+        }
+        else { // Manage by the regex
+            $className = $infoName->regex;
+        }
 
         // Return the manager class
         return new $className($specificObject, $option);
