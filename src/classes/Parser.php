@@ -18,7 +18,6 @@ class Parser {
      * @return AManager
      */
     static function getClassManager($nameCall, $url, $option, $specificObject, $classParserConfigName) : AManager {
-        
         // get the information about the nameCall
         $infoName = $classParserConfigName::get($nameCall);
 
