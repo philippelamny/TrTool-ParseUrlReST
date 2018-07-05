@@ -1,10 +1,10 @@
 <?php
 
-namespace TrTool\ParseUrlRest\Src\Classes;
+namespace TrTool\ParseUrlReST\Src\Classes;
 
 /**
  * Class AManager
- * @package TrTool\ParseUrlRest\Src\Classes
+ * @package TrTool\ParseUrlReST\Src\Classes
  */
 abstract class AManager implements IManager {
     protected $_specificObject;

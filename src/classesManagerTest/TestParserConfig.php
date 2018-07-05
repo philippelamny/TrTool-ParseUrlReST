@@ -1,12 +1,12 @@
 <?php
 
-namespace TrTool\ParseUrlRest\Src\classesManagerTest;
+namespace TrTool\ParseUrlReST\Src\classesManagerTest;
 
-use TrTool\ParseUrlRest\Src\Classes\ParserConfig;
+use TrTool\ParseUrlReST\Src\Classes\ParserConfig;
 
 /**
  * Class TestParserConfig
- * @package TrTool\ParseUrlRest\Src\classesManagerTest
+ * @package TrTool\ParseUrlReST\Src\classesManagerTest
  */
 final class TestParserConfig extends ParserConfig {
 

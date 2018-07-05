@@ -1,11 +1,11 @@
 <?php
 
-namespace TrTool\ParseUrlRest\Src\Classes;
+namespace TrTool\ParseUrlReST\Src\Classes;
 
 /**
  * Class Builder allows to build the class manager in function of the parameters
  * Class Parser
- * @package TrTool\ParseUrlRest\Src\Classes
+ * @package TrTool\ParseUrlReST\Src\Classes
  */
 class Parser {
 

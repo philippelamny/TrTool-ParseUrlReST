@@ -1,12 +1,12 @@
 <?php
 
-namespace TrTool\ParseUrlRest\Src\Classes;
+namespace TrTool\ParseUrlReST\Src\Classes;
 
 /**
  * Class ParserConfig Get a configuration from the name Call (PUT, GET...)
  * You need to specify in a new class which implements this class to generate a info name
  * Class ParserConfig
- * @package TrTool\ParseUrlRest\Src\Classes
+ * @package TrTool\ParseUrlReST\Src\Classes
  */
 class ParserConfig {
 

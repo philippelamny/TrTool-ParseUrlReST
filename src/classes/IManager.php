@@ -1,10 +1,10 @@
 <?php
 
-namespace TrTool\ParseUrlRest\Src\Classes;
+namespace TrTool\ParseUrlReST\Src\Classes;
 
 /**
  * Interface IManager
- * @package TrTool\ParseUrlRest\Src\Classes
+ * @package TrTool\ParseUrlReST\Src\Classes
  */
 interface IManager {
 
