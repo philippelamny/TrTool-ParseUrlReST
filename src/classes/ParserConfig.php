@@ -16,7 +16,7 @@ class ParserConfig {
      */
     static function get($name) {
         $functionInfo = 'name' . ucfirst($name) . 'Info';
-        return self::$functionInfo();
+        return static::$functionInfo();
     }
 
 

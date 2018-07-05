@@ -18,7 +18,8 @@ class Parser {
      * @param $classParserConfigName class name of Parserconfig to use
      * @return AManager
      */
-    static function getClassManager($nameCall, $url, $option, $specificObject, $classParserConfigName) : AManager {
+    static function getClassManager($nameCall, $url, $option, $specificObject, $classParserConfigName, $specificUserNameSpaceForManagerClass) : AManager {
+
         // get the information about the nameCall
         $infoName = $classParserConfigName::get($nameCall);
 
@@ -30,6 +31,7 @@ class Parser {
             $className = $infoName->regex;
         }
 
+        $className = $specificUserNameSpaceForManagerClass.$className;
         // Return the manager class
         return new $className($specificObject, $option);
     }
