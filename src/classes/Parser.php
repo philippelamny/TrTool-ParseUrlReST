@@ -4,7 +4,8 @@ namespace TrTool\ParseUrlRest\Src\Classes;
 
 /**
  * Class Builder allows to build the class manager in function of the parameters
- * @package TrTool\ParseUrlRest
+ * Class Parser
+ * @package TrTool\ParseUrlRest\Src\Classes
  */
 class Parser {
 

@@ -5,7 +5,8 @@ namespace TrTool\ParseUrlRest\Src\Classes;
 /**
  * Class ParserConfig Get a configuration from the name Call (PUT, GET...)
  * You need to specify in a new class which implements this class to generate a info name
- * @package TrTool\ParseUrlRest
+ * Class ParserConfig
+ * @package TrTool\ParseUrlRest\Src\Classes
  */
 class ParserConfig {
 

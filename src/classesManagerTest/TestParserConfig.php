@@ -6,7 +6,7 @@ use TrTool\ParseUrlRest\Src\Classes\ParserConfig;
 
 /**
  * Class TestParserConfig
- * @package TrTool\ParseUrlRest
+ * @package TrTool\ParseUrlRest\Src\classesManagerTest
  */
 final class TestParserConfig extends ParserConfig {
 

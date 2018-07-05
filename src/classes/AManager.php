@@ -2,6 +2,10 @@
 
 namespace TrTool\ParseUrlRest\Src\Classes;
 
+/**
+ * Class AManager
+ * @package TrTool\ParseUrlRest\Src\Classes
+ */
 abstract class AManager implements IManager {
     protected $_specificObject;
     protected $_options;
