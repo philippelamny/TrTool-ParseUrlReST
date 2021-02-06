@@ -1,0 +1,20 @@
+{
+  "name": "TrTool/ParseUrlReST",
+  "description": "The package consists parse your URL and to generate a Class Action Manager",
+  "keywords": ["REST", "URL", "PARSER", "SIMPLE"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philippe Lam",
+      "email": "philippe.lam.ny@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TrTool\\ParseUrlReST\\Src\\": "./src"
+    }
+  }
+}
